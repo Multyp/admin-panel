@@ -14,6 +14,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  border: 1px solid black;
 }
 
 .searchbar i {
@@ -81,6 +82,8 @@
   border-radius: 20px;
   width: 50%;
   min-width: none;
+  
+  border: 2px solid black;
 }
 
 .search-container i {
@@ -91,6 +94,8 @@
   border: none;
   background-color: transparent;
   outline: none;
+  width: 100%;
+  font-family: 'star wars';
 }
 
 .header-buttons {
@@ -106,6 +111,7 @@
   box-sizing: 12px;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-family: 'star wars';
 }
 
 .header-buttons button:hover {
@@ -136,6 +142,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  border: 1px solid black;
 }
 
 .profile-access-container {
@@ -143,7 +150,7 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
-  border-radius: 12px;
+  border-radius: 25px;
   border: 2px solid black;
   padding: 7px;
   box-sizing: border-box;
