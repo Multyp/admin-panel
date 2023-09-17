@@ -46,9 +46,16 @@ body, html {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
   .wrapper {
       grid-template-columns: 100px 1fr;
-      grid-template-rows: 320px 1fr;
+      grid-template-rows: 280px 1fr;
+  }
+}
+
+@media (max-width: 330px) {
+  .wrapper {
+      grid-template-columns: 100px 1fr;
+      grid-template-rows: 330px 1fr;
   }
 }
