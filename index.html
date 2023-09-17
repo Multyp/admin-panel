@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/content.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet">
 </head>
@@ -81,8 +82,81 @@
             </div>
         </header>        
         <main class="content">
-            Welcome to the&ensp; Star Wars Admin Panel. Manage your Jedi, Droids, and Galactic&ensp; Senate from here!
-        </main>
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="card">
+                    <div class="color-column"></div>
+                    <div class="card-content">
+                        <h3>Grand army of the Republic</h3>
+                        <p>Checking on troop training on kamino, new troops needed asap</p>
+                        <div class="icon-container">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="color-column"></div>
+                    <div class="card-content">
+                        <h3>Training of Ani</h3>
+                        <p>Pursue the training of Ani, he's a kid fighting in a war while training a child...</p>
+                        <div class="icon-container">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="color-column"></div>
+                    <div class="card-content">
+                        <h3>Finding the sith behing all of it</h3>
+                        <p>We know for sure a sith is behind this war, pulling th string, but who is he ?</p>
+                        <div class="icon-container">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="announcements-trending">
+                <section class="announcements">
+                    <h2>Announcements</h2>
+                    <div class="card">
+                        <div class="color-column-none"></div>
+                        <div class="card-content">
+                            <div class="announce first-announce" id="1">
+                                <h4>Victory on Ryloth</h4>
+                                <p>General skywalker leaded the liberation of ryloth and succeeded in his mission</p>
+                            </div>
+                            <div class="announce" id="2">
+                                <h4>Next arrival of clones</h4>
+                                <p>A great amount of clones will soon join the army, new section will be created and sections in need of reinforcement can ask for more troups until the end of the week</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="trending">
+                    <h2>Trending</h2>
+                    <div class="card">
+                        <div class="color-column-none"></div>
+                        <div class="card-content">
+                            <div class="profile-trending first-profile">
+                                <img src="./assets/snips-pic.jpg" style="border-radius: 50%; width: 30px; height: 30px;"/>
+                                @snips
+                            </div>
+                            <div class="profile-trending">
+                                <img src="./assets/skyguy-pic.jpg" style="border-radius: 50%; width: 30px; height: 30px;"/>
+                                @skyguy
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>        
     </div>
 </body>
 </html>
