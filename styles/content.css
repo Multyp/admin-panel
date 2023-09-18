@@ -105,6 +105,7 @@
     padding: 5px;
     transition: background-color 0.3s, color 0.3s;
     margin-top: 12px;
+    cursor: pointer;
 }
 
 .profile-trending:hover {
